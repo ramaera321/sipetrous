@@ -1,0 +1,93 @@
+/* Font */
+@font-face{
+    font-family: "overpass";
+    src: url('../font/Overpass/Overpass-Regular.ttf');
+}
+
+@font-face{
+    font-family: "chivo";
+    src: url('../font/Chivo/Chivo-Regular.ttf');
+}
+
+/* Kotak Login */
+.login{
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 50px auto;
+    overflow: hidden;
+    box-shadow: black 0 3px 12px;
+}
+
+.box{
+    width: 46%;
+    height: 500px;
+    background-color: white;
+}
+
+.box:first-child img{
+    height: 100%;
+}
+
+.box:last-child{
+    background-color:white;
+    width: 54%;
+    padding: 50px 40px;
+}
+
+.box:last-child h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box:last-child a{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box:last-child form{
+    margin-bottom: 15px;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: rgba(31, 88, 95, 0.4);
+}
+
+
+/* Jumbotron */
+
+.jumbotron{
+    text-align: center;
+    background-image: url('../image/background/pantai-kenjeran-surabaya.jpg');
+    background-size: cover;
+    background-position-y: center;
+    height: 600px;
+    margin-top: -70px;
+}
+
+.jumbotron .blur{
+    background-color: rgba(000, 000, 000, 0.3);
+    width: 100%;
+    height: 595px;
+    margin-top: -60px;
+    padding: 13% 0px;
+}
+
+.jumbotron h1{
+    font-family: 'chivo';
+    font-weight: bold;
+    color: white;
+}
+
+.jumbotron p{
+    font-family: 'overpass';
+    color: white;
+}
+
+/* Destination */
+
+.destination{
+    height: 400px;
+}
