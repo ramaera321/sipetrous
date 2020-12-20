@@ -9,6 +9,11 @@
     src: url('../font/Chivo/Chivo-Regular.ttf');
 }
 
+h4{
+    font-family: 'overpass';
+    font-weight: bold;
+}
+
 /* Kotak Login */
 .login{
     width: 70%;
@@ -55,22 +60,22 @@
     background-color: rgba(31, 88, 95, 0.4);
 }
 
+/* .navbar ul li a:hover{
+    border-bottom: solid 2px rgb(240, 144, 0);
+    transition: 0.5s;
+} */
+
+.active{
+    font-weight: bold;
+    border-bottom: solid 2px rgb(240, 144, 0);
+}
 
 /* Jumbotron */
-
-.jumbotron{
-    text-align: center;
-    background-image: url('../image/background/pantai-kenjeran-surabaya.jpg');
-    background-size: cover;
-    background-position-y: center;
-    height: 600px;
-    margin-top: -70px;
-}
 
 .jumbotron .blur{
     background-color: rgba(000, 000, 000, 0.3);
     width: 100%;
-    height: 595px;
+    height: 695px;
     margin-top: -60px;
     padding: 13% 0px;
 }
@@ -88,6 +93,265 @@
 
 /* Destination */
 
+.jombotron-destinasi{
+    background-color: #1f7091;
+    background-size: cover;
+    background-position-y: center;
+    height: 500px;
+    margin-top: -70px;
+}
+
+.text-heading-destinasi{
+    padding: 10% 0px;
+}
+
+.text-heading-destinasi h1{
+    font-family: 'chivo';
+}
+
+.image-heading-destinasi{
+    padding: 5% 0px;
+}
+
+.jombotron-destinasi img{
+    width: 100%;
+    height: auto;
+}
+
+.destination-page{
+    padding-bottom: 50px;
+}
+
+.destination-page .cover-card .card{
+    border: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.destination-page .cover-card .card .slidedown{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 101, 148, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: 0.7s ease;
+    top: -40px;
+    color: white;
+}
+
+.destination-page .cover-card .card:hover .slidedown {
+    bottom: 0;
+    height: 120%;
+    padding: 30% 20px;
+  }
+
+.destination-page .cover-card .card .inframe{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 20, 29, 0.2);
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 120%;
+    transition: 0.7s ease;
+    top: -40px;
+    color: white;
+    padding: 110% 20px;
+}
+
+.destination-page .cover-card .card:hover .inframe {
+    bottom: 100%;
+    height: 0;
+    padding: 150% 20px;
+    background-color: rgba(0, 20, 29, 0);
+  }
+
+
+.destination-page .cover-card .card .card-img-overlay p{
+    margin-top: -10px;
+}
+
+.destination-page .cover-card .card .img{
+    height: 300px;
+    overflow: hidden;
+}
+
+.destination-page .cover-card .card .img img{
+    height: 100%;
+    width: auto;
+}
+
 .destination{
     height: 400px;
+    padding: 30px 0px;
+}
+
+.destination-page .form-inline{
+    margin-left: 35%;
+}
+
+.destination-page .head{
+    margin-bottom: 25px;
+}
+
+.destination-page .form-inline .btn{
+    margin-left: -11px;
+}
+
+.cards-destinasi{
+    padding: 30px 0px;
+}
+
+.destination .cover-card{
+    padding: 0 7px;
+}
+
+.destination .card{
+    border-radius: 10px;
+}
+
+.destination .card-body{
+    text-align: center;
+}
+
+.destination .cover-card .img{
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.destination .cover-card .img img{
+    width: auto;
+    height: 100%;
+}
+
+.destination .card-body p{
+    font-size: 14px;
+}
+
+/* Galery */
+.galery{
+    height: 500px;
+}
+
+.galery .card{
+    border: none;
+}
+
+.galery-photos{
+    padding: 30px 0px;
+}
+
+.galery .large-image .img{
+    height: 340px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.galery .large-image .img img{
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+.galery .small-image .img{
+    height: 165px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.galery .small-image .img img{
+    height: 100%;
+    width: auto;
+    /* width: 100%;
+    height: auto; */
+    align-items: center;
+}
+
+.article{
+    padding: 70px 0px 30px 0px;
+    height: auto;
+    width: 100%;
+}
+
+.article .card{
+    border: none;
+}
+
+.article .head-article{
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.article .main-article .img{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.article .main-article .card-body{
+    text-align: left;
+}
+
+.article .main-article img{
+    height: 100%;
+    width: auto;
+}
+
+.article .other-article .card{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.article .other-article .card .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.article .other-article .card img{
+    height: 100%;
+    width: auto;
+}
+
+/* Footer */
+footer{
+    height: auto;
+    background-color: #f3f3f3;
+    padding: 25px 0 10px 0;
+}
+
+footer .fab:nth-child(2){
+    margin: 0 25px;
+}
+
+footer .navbar{
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+footer .icon{
+    margin-bottom: 10px;
+}
+
+footer hr{
+    height: 2px;
+}
+
+/* Search */
+
+#search-destinasi{
+    width: 40%;
 }
