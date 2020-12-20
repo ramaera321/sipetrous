@@ -355,3 +355,40 @@ footer hr{
 #search-destinasi{
     width: 40%;
 }
+
+/* Detail Destinasi */
+
+.detail-destination{
+    padding: 30px 0px;
+}
+
+.detail-destination .image-detail{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.detail-destination .text-detail{
+    padding: 10px 10px;
+}
+
+.detail-destination .image-detail img{
+    width: 100%;
+    height: auto;
+}
+
+.maps{
+    padding: 20px 0px;
+    margin-bottom: 40px;
+}
+
+.maps h4{
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.maps .maps-destinasi{
+    border-radius: 10px;
+    overflow: hidden;
+}

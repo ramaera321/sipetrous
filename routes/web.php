@@ -28,3 +28,7 @@ Route::get('/login', function () {
 Route::get('/destination', function () {
     return view('destinasi');
 });
+
+Route::get('/detail_destination', function () {
+    return view('detail_destinasi');
+});
