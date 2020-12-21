@@ -40,17 +40,17 @@
             </div>
             <div class="cards-destinasi row">
                 <div class="cover-card col-sm-3">
-                    <a href="http://">
-                        <div class="card">
+                    <a href="detail_destination">
+                        <div class="card" data-aos="fade-up">
                             <div class="img">
-                                <img class="card-img-top" src="{{ asset('image/Monumen-Tugu-Pahlawan-Surabaya.jpg') }}" alt="Card image cap">
+                                <img class="card-img-top" src="{{ asset('image/img.jfif') }}" alt="Card image cap">
                             </div>
                             <div class="card-img-overlay slidedown">
-                              <h5 class="card-title">Ekowisata Mangrove</h5>
+                              <h5 class="card-title">Kebun Binatang</h5>
                               <p class="card-text">Some quick example text to</p>
                             </div>
                             <div class="card-img-overlay inframe">
-                                <h5 class="card-title">Ekowisata Mangrove</h5>
+                                <h5 class="card-title">Kebun Binatang</h5>
                                 <p class="card-text">Some quick example text to</p>
                               </div>
                         </div>
@@ -58,10 +58,28 @@
                 </div> 
 
                 <div class="cover-card col-sm-3">
-                    <a href="http://">
-                        <div class="card">
+                    <a href="detail_destination">
+                        <div class="card" data-aos="fade-up" data-aos-delay="100">
                             <div class="img">
                                 <img class="card-img-top" src="{{ asset('image/Monumen-Tugu-Pahlawan-Surabaya.jpg') }}" alt="Card image cap">
+                            </div>
+                            <div class="card-img-overlay slidedown">
+                              <h5 class="card-title">Tugu Pahlawan</h5>
+                              <p class="card-text">Some quick example text to</p>
+                            </div>
+                            <div class="card-img-overlay inframe">
+                                <h5 class="card-title">Tugu Pahlawan</h5>
+                                <p class="card-text">Some quick example text to</p>
+                              </div>
+                        </div>
+                    </a>
+                </div>  
+
+                <div class="cover-card col-sm-3">
+                    <a href="detail_destination">
+                        <div class="card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="img">
+                                <img class="card-img-top" src="{{ asset('image/084807600_1556790841-mangrove.jpg') }}" alt="Card image cap">
                             </div>
                             <div class="card-img-overlay slidedown">
                               <h5 class="card-title">Ekowisata Mangrove</h5>
@@ -76,35 +94,17 @@
                 </div>  
 
                 <div class="cover-card col-sm-3">
-                    <a href="http://">
-                        <div class="card">
+                    <a href="detail_destination">
+                        <div class="card" data-aos="fade-up" data-aos-delay="300">
                             <div class="img">
-                                <img class="card-img-top" src="{{ asset('image/Monumen-Tugu-Pahlawan-Surabaya.jpg') }}" alt="Card image cap">
+                                <img class="card-img-top" src="{{ asset('image/tmnbungkul-prepcom1.jpg') }}" alt="Card image cap">
                             </div>
                             <div class="card-img-overlay slidedown">
-                              <h5 class="card-title">Ekowisata Mangrove</h5>
+                              <h5 class="card-title">Taman Bungkul</h5>
                               <p class="card-text">Some quick example text to</p>
                             </div>
                             <div class="card-img-overlay inframe">
-                                <h5 class="card-title">Ekowisata Mangrove</h5>
-                                <p class="card-text">Some quick example text to</p>
-                              </div>
-                        </div>
-                    </a>
-                </div>  
-
-                <div class="cover-card col-sm-3">
-                    <a href="http://">
-                        <div class="card">
-                            <div class="img">
-                                <img class="card-img-top" src="{{ asset('image/Monumen-Tugu-Pahlawan-Surabaya.jpg') }}" alt="Card image cap">
-                            </div>
-                            <div class="card-img-overlay slidedown">
-                              <h5 class="card-title">Ekowisata Mangrove</h5>
-                              <p class="card-text">Some quick example text to</p>
-                            </div>
-                            <div class="card-img-overlay inframe">
-                                <h5 class="card-title">Ekowisata Mangrove</h5>
+                                <h5 class="card-title">Taman Bungkul</h5>
                                 <p class="card-text">Some quick example text to</p>
                               </div>
                         </div>

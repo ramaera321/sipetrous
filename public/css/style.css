@@ -57,7 +57,17 @@ h4{
 /* Navbar */
 
 .navbar{
-    background-color: rgba(31, 88, 95, 0.4);
+    background-color: rgba(14, 53, 58, 0.7);
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid rgb(240, 144, 0);
+    width: 70%;
+    margin: auto;
+    padding-bottom: 8px;
+    margin-bottom: -10px;
 }
 
 /* .navbar ul li a:hover{
@@ -84,6 +94,11 @@ h4{
     font-family: 'chivo';
     font-weight: bold;
     color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .lead{
+    text-shadow: 0.7px 0.7px 0.7px rgba(0, 0, 0, 0.7);
 }
 
 .jumbotron p{
@@ -94,7 +109,7 @@ h4{
 /* Destination */
 
 .jombotron-destinasi{
-    background-color: #1f7091;
+    background-color: #1f7091 !important;
     background-size: cover;
     background-position-y: center;
     height: 500px;
